@@ -11,8 +11,9 @@ A lista aqui apresentada contém informação básica do jogo, como o intervalo 
 a dificuldade e se se trata de um jogo cooperativo ou competitivo.
 Cada jogo tem, também, a sua própria página de detalhes onde uma sinopse e imagem do jogo podem ser consultadas.
 
-  | Jogo                            | Modo        | Jogadores | Duração Média | Dificuldade       |
-  | ---                             | ---         | ---       | ---           | ---               |
-  | [Pandemic](./games/pandemic.md) | Cooperativo | 1 a 4     | 45 minutos    | Dificuldade média |
-  | [Cascadia](./games/cascadia.md) | Competitivo | 1 a 4     | 40 minutos    | Dificuldade baixa |
-  | [Everdell](./games/everdell.md) | Competitivo | 1 a 4     | 60 minutos    | Dificuldade média |
+ | Jogo                                                           | Modo        | Jogadores | Duração Média | Dificuldade       |
+ | ---                                                            | ---         | ---       | ---           | ---               |
+ | [Pandemic](./games/pandemic.md)                                | Cooperativo | 1 a 4     | 45 minutos    | Dificuldade média |
+ | [Cascadia](./games/cascadia.md)                                | Competitivo | 1 a 4     | 40 minutos    | Dificuldade baixa |
+ | [Everdell](./games/everdell.md)                                | Competitivo | 1 a 4     | 60 minutos    | Dificuldade média |
+ | [Coloretto](./games/coloretto.md)                              | Competitivo | 2 a 5     | 30 minutos    | Dificuldade baixa |
