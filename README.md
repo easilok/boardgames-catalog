@@ -11,3 +11,6 @@ A lista aqui apresentada contém informação básica do jogo, como o intervalo 
 a dificuldade e se se trata de um jogo cooperativo ou competitivo.
 Cada jogo tem, também, a sua própria página de detalhes onde uma sinopse e imagem do jogo podem ser consultadas.
 
+  | Jogo                            | Modo        | Jogadores | Duração Média | Dificuldade       |
+  | ---                             | ---         | ---       | ---           | ---               |
+  | [Pandemic](./games/pandemic.md) | Cooperativo | 1 a 4     | 45 minutos    | Dificuldade média |
