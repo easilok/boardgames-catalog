@@ -15,3 +15,4 @@ Cada jogo tem, também, a sua própria página de detalhes onde uma sinopse e im
   | ---                             | ---         | ---       | ---           | ---               |
   | [Pandemic](./games/pandemic.md) | Cooperativo | 1 a 4     | 45 minutos    | Dificuldade média |
   | [Cascadia](./games/cascadia.md) | Competitivo | 1 a 4     | 40 minutos    | Dificuldade baixa |
+  | [Everdell](./games/everdell.md) | Competitivo | 1 a 4     | 60 minutos    | Dificuldade média |
