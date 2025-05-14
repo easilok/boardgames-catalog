@@ -14,3 +14,4 @@ Cada jogo tem, também, a sua própria página de detalhes onde uma sinopse e im
   | Jogo                            | Modo        | Jogadores | Duração Média | Dificuldade       |
   | ---                             | ---         | ---       | ---           | ---               |
   | [Pandemic](./games/pandemic.md) | Cooperativo | 1 a 4     | 45 minutos    | Dificuldade média |
+  | [Cascadia](./games/cascadia.md) | Competitivo | 1 a 4     | 40 minutos    | Dificuldade baixa |
