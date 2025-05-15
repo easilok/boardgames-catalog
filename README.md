@@ -17,3 +17,4 @@ Cada jogo tem, também, a sua própria página de detalhes onde uma sinopse e im
  | [Cascadia](./games/cascadia.md)                                | Competitivo | 1 a 4     | 40 minutos    | Dificuldade baixa |
  | [Everdell](./games/everdell.md)                                | Competitivo | 1 a 4     | 60 minutos    | Dificuldade média |
  | [Coloretto](./games/coloretto.md)                              | Competitivo | 2 a 5     | 30 minutos    | Dificuldade baixa |
+ | [Above and Below](./games/above-and-below.md)                  | Competitivo | 2 a 4     | 90 minutos    | Dificuldade média |
