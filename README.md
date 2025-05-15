@@ -19,3 +19,4 @@ Cada jogo tem, também, a sua própria página de detalhes onde uma sinopse e im
  | [Coloretto](./games/coloretto.md)                              | Competitivo | 2 a 5     | 30 minutos    | Dificuldade baixa |
  | [Above and Below](./games/above-and-below.md)                  | Competitivo | 2 a 4     | 90 minutos    | Dificuldade média |
  | [Dark Tomb: The Ice Chasers](./games/dark-tomb-ice-chasers.md) | Cooperativo | 1 a 4     | 40 minutos    | Dificuldade baixa |
+ | [7 Summits](./games/7summits.md)                                    | Competitivo | 1 a 5     | 40 minutos    | Dificuldade baixa |
