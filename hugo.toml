@@ -1,0 +1,15 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'AddRoll'
+theme = 'ananke'
+SectionPagesMenu = 'main'
+
+[cascade]
+featured_image = '/images/hero-wide.jpg'
+
+[params]
+read_more_copy = 'Detalhes'
+featured_image_class = 'cover bg-bottom'
+
+[pagination]
+pagerSize = 6

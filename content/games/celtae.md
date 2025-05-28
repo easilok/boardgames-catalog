@@ -1,8 +1,15 @@
-# Celtae
-
-![Celtae board setup](https://cf.geekdo-images.com/d_tH7waG7tgK3mw8N3oYeA__imagepage/img/I0LcUxQj5vJ0TtcS6eMtiUyjC1I=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7624859.jpg)
-
+---
+title: 'Celtae'
+featured_image: '/games/celtae-featured.jpg'
+mode: 'competitive'
+difficulty: 'median'
+duration: 80
+---
 O *Celtae* é um jogo competitivo onde os jogadores lideram uma tribo celta na sua expansão europeia, derrotando os romanos.
+
+<!--more-->
+
+![Celtae board setup](/games/celtae-featured.jpg)
 
 Os jogadores têm como objectivo escalar várias montanhas e conquistar o topo do maior número delas antes do final do jogo. Para isso podem seguir um caminho mais seguro (e lento) ou correr mais riscos e superar todos os outros. Riscos têm consequências e uma queda pode levar o jogador a ter de iniciar a escalada do 0.
 
@@ -19,5 +26,3 @@ Um jogo estratégico, onde os jogadores tomam decisões em como usar os seus tra
 - **Complexidade**: 2.73/5 (média)
 - **Recursos**: [BGG](https://boardgamegeek.com/boardgame/374200/celtae)
 - **Dono**: Luís Pereira
-
-**[Back to List](../README.md)**

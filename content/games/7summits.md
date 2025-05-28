@@ -1,8 +1,15 @@
-# 7 Summits
-
-![7 Summits board setup](https://cf.geekdo-images.com/Q4iOaWo-tUvHrn7OgsyIbA__imagepage/img/ueiIwZ-GprPZBEilzqIrTr9JsHU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8251657.jpg)
-
+---
+title: '7 Summits'
+featured_image: '/games/7-summits-featured.jpg'
+mode: 'competetive'
+difficulty: 'low'
+duration: 40
+---
 O *7 Summits* é um jogo competitivo onde os jogadores, num papel de alpinistas, procuram ser o melhor alpinista mundial, conquistando o pico das montanhas mais altas dos 7 continentes.
+
+<!--more-->
+
+![7 Summits board setup](/games/7-summits-featured.jpg)
 
 Os jogadores têm como objectivo escalar várias montanhas e conquistar o topo do maior número delas antes do final do jogo. Para isso podem seguir um caminho mais seguro (e lento) ou correr mais riscos e superar todos os outros. Riscos têm consequências e uma queda pode levar o jogador a ter de iniciar a escalada do 0.
 
@@ -16,5 +23,3 @@ Um jogo simples, de fácil compreensão e com um ritmo rápido, onde a sorte e a
 - **Complexidade**: 1.86/5 (baixa)
 - **Recursos**: [BGG](https://boardgamegeek.com/boardgame/275213/7-summits)
 - **Dono**: Luís Pereira
-
-**[Back to List](../README.md)**

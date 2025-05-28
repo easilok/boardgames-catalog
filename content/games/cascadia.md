@@ -1,8 +1,15 @@
-# Cascadia
-
-![Cascadia board setup](https://cf.geekdo-images.com/N6cvoAuqbs4hl0L8BmnLPw__imagepage/img/NxHCaGrkY07_HHEL3Wd7zisDcuA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6339716.jpg)
-
+---
+title: 'Cascadia'
+featured_image: '/games/cascadia-featured.jpg'
+mode: 'competitive'
+difficulty: 'low'
+duration: 40
+---
 O *Cascadia* é um jogo competitivo onde os jogadores constroem o melhor ecossistema de vida selvagem baseado em espécies dessa mesma localização.
+
+<!--more-->
+
+![Cascadia board setup](/games/cascadia-featured.jpg)
 
 Cada jogador trabalha num puzzle composto por peças de diferentes ecossistemas (aquático, deserto, florestal), posteriormente populados por animais selvagens, procurando cumprir o maior número de objetivos e arrecadar o prémio de melhor habitat.
 
@@ -16,5 +23,3 @@ Um jogo simples, de fácil compreensão e um ritmo rápido, ideal para momentos 
 - **Complexidade**: 1.85/5 (baixa)
 - **Recursos**: [BGG](https://boardgamegeek.com/boardgame/295947/cascadia)
 - **Dono**: Luís Pereira
-
-**[Back to List](../README.md)**

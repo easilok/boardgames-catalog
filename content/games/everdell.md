@@ -1,8 +1,15 @@
-# Everdell
-
-![Everdell board setup](https://cf.geekdo-images.com/mXgj0RGf2YLZ4VUg1wdofQ__imagepage/img/j8QaDDHdnraAHfgUh1CJZrVOFjg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4224803.jpg)
-
+---
+title: 'Everdell'
+featured_image: '/games/everdell-featured.jpg'
+mode: 'competetive'
+difficulty: 'median'
+duration: 60
+---
 O *Everdell* é um jogo competitivo onde os jogadores procuram construir a comunidade mais viva e produtiva no vale com o mesmo nome.
+
+<!--more-->
+
+![Everdell board setup](/games/everdell-featured.jpg)
 
 Cada jogador utiliza trabalhadores da sua comunidade para produzir recursos e riquezas que são, posteriormente, usados para aumentar a infraestrutura e os membros da sua comunidade.
 
@@ -16,5 +23,3 @@ Um jogo simples e de fácil compreensão, sem descurar de um design e detalhes f
 - **Complexidade**: 2.82/5 (média)
 - **Recursos**: [BGG](https://boardgamegeek.com/boardgame/199792/everdell)
 - **Dono**: Luís Pereira
-
-**[Back to List](../README.md)**

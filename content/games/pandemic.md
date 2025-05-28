@@ -1,8 +1,16 @@
-# Pandemic
-
-![Pandemic board setup](https://m.media-amazon.com/images/I/81YM+hxO0QL.jpg)
-
+---
+title: 'Pandemic'
+featured_image: '/games/pandemic-featured.jpg'
+mode: 'cooperative'
+difficulty: 'median'
+duration: 45
+featured: true
+---
 O *Pandemic* é um jogo cooperativo onde os jogadores assumem um papel fundamental para salvar o mundo de várias epidemias, antes que elas se propaguem para um estado onde já não será mais possível evitar o extermínio da humanidade.
+
+<!--more-->
+
+![Pandemic board setup](/games/pandemic-featured.jpg)
 
 Cada jogador assume uma personagem, com funções específicas, e em conjunto terão de planear bem os passos para que consigam, para vários vírus: controlar a sua expansão mundial e recolher os recursos necessários para encontrar a sua cura.
 
@@ -16,5 +24,3 @@ Um jogo estratégico onde cada decisão conta para o sucesso da missão. A utili
 - **Complexidade**: 2.40/5 (média)
 - **Recursos**: [BGG](https://boardgamegeek.com/boardgame/30549/pandemic)
 - **Dono**: Luís Pereira
-
-**[Back to List](../README.md)**

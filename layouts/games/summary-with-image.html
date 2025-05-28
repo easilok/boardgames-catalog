@@ -1,0 +1,50 @@
+{{ partials.Include "func/warn.html" `You are currently using 'partial "summary-with-image"' in your project templates.
+You should replace it with '.Render "summary-with-image"' as the use of this partial will be deprecated in future releases.
+More info here: https://github.com/theNewDynamic/gohugo-theme-ananke/releases/tag/v2.8.1` }}
+{{ $featured_image := partials.Include "func/GetFeaturedImage.html" . }}
+<article class="bb b--black-10 h-100">
+  <div class="db pv4 ph3 ph0-l dark-gray no-underline h-100 flex flex-column">
+      {{ if $featured_image }}
+          {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+        <div class="mb4 w-100">
+          <a href="{{.RelPermalink}}" class="db grow">
+            <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
+          </a>
+        </div>
+      {{ end }}
+      <div class="blah w-100 flex flex-column justify-between" style="flex-grow: 1">
+          <div>
+            <h1 class="f3 fw1 athelas mt0 lh-title">
+            <a href="{{.RelPermalink}}" class="color-inherit dim link">
+                {{ .Title }}
+                </a>
+            </h1>
+            {{ if .Params.mode }}
+                <span class="f6 lh-copy i mr2 light-silver">
+                    {{ partial "game-playing-mode.html" .Params.mode }}
+                </span>
+            {{ end }}
+            {{ if .Params.duration }}
+                <span class="f6 lh-copy i mr2 light-silver">
+                    {{.Params.duration }}min
+                </span>
+            {{ end }}
+            {{ if .Params.difficulty }}
+                <span class="f6 lh-copy i light-silver">
+                    {{.Params.difficulty }}
+                </span>
+            {{ end }}
+            <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+            {{ .Summary }}
+            </div>
+            {{ with .Params.author | compare.Default .Site.Params.author }}
+            <p class="f6 lh-copy mv0">By {{ . }}</p>
+            {{- end -}}
+          </div>
+        <a href="{{.RelPermalink}}"
+            class="dark-blue dim db f7 link mv2 tr"
+            >{{ $.Param "read_more_copy" | compare.Default (lang.Translate "readMore") }} &#x2197;</a>
+    </div>
+  </div>
+</article>
+
