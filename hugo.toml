@@ -13,3 +13,6 @@ featured_image_class = 'cover bg-bottom'
 
 [pagination]
 pagerSize = 6
+
+[caches.images]
+dir = ':cacheDir/images'
