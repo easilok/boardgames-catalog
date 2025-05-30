@@ -1,6 +1,6 @@
 ---
 title: 'Boardgame Name'
-featured_image: '/games/boardgame-name.jpg'
+featured_image: '/resources/games/boardgame-name.jpg'
 mode: 'competetive | cooperative'
 difficulty: 'low | medium | high'
 duration: 40
@@ -9,7 +9,7 @@ Write a small presentation of the game. Try to express what makes you want to pl
 
 <!--more-->
 
-![Boardgame name board setup](/games/boardgame-name.jpg)
+![Boardgame name board setup](/resources/games/boardgame-name.jpg)
 
 Give a more detailed description of the game, combining details on the gameplay, distinct features and
 similarities with other games.

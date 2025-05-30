@@ -1,6 +1,6 @@
 ---
 title: '7 Summits'
-featured_image: '/games/7-summits-featured.jpg'
+featured_image: '/resources/games/7-summits-featured.jpg'
 mode: 'competetive'
 difficulty: 'low'
 duration: 40
@@ -9,7 +9,7 @@ O *7 Summits* é um jogo competitivo onde os jogadores, num papel de alpinistas,
 
 <!--more-->
 
-![7 Summits board setup](/games/7-summits-featured.jpg)
+![7 Summits board setup](/resources/games/7-summits-featured.jpg)
 
 Os jogadores têm como objectivo escalar várias montanhas e conquistar o topo do maior número delas antes do final do jogo. Para isso podem seguir um caminho mais seguro (e lento) ou correr mais riscos e superar todos os outros. Riscos têm consequências e uma queda pode levar o jogador a ter de iniciar a escalada do 0.
 

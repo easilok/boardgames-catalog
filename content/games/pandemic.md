@@ -1,8 +1,8 @@
 ---
 title: 'Pandemic'
-featured_image: '/games/pandemic-featured.jpg'
+featured_image: '/resources/games/pandemic-featured.jpg'
 mode: 'cooperative'
-difficulty: 'median'
+difficulty: 'medium'
 duration: 45
 featured: true
 ---
@@ -10,7 +10,7 @@ O *Pandemic* é um jogo cooperativo onde os jogadores assumem um papel fundament
 
 <!--more-->
 
-![Pandemic board setup](/games/pandemic-featured.jpg)
+![Pandemic board setup](/resources/games/pandemic-featured.jpg)
 
 Cada jogador assume uma personagem, com funções específicas, e em conjunto terão de planear bem os passos para que consigam, para vários vírus: controlar a sua expansão mundial e recolher os recursos necessários para encontrar a sua cura.
 

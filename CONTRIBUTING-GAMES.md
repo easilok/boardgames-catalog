@@ -18,7 +18,7 @@ On the top of the page there is a section surrounded by dashes that is not part 
 is used to specific features of the website:
 
 - The **title** property sets what names the game on the list pages. It also sets the title of the boardgame own page.
-- The **featured_image** sets the image that will be present on the list pages, identifying the game, and when viewing the game page. This image should be added to the `static/games` folder, following the same name convention as the boardgame file.
+- The **featured_image** sets the image that will be present on the list pages, identifying the game, and when viewing the game page. This image should be added to the `static/resources/games` folder, following the same name convention as the boardgame file.
 - The **mode** property defines if it is a *cooperative* or *competitive* game. It is used for tagging the game in list pages.
 - The **difficulty** property defines if it is a *low*, *medium* or *high* difficulty game. It is used for tagging the game in list pages (refer to the game [bgg](https://boardgamegeek.com) page find an appropriate value).
 - The **duration** property defines the average duration of the gameplay. It is used for tagging the game in list pages .

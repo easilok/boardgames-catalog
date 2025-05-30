@@ -1,15 +1,15 @@
 ---
 title: 'Celtae'
-featured_image: '/games/celtae-featured.jpg'
+featured_image: '/resources/games/celtae-featured.jpg'
 mode: 'competitive'
-difficulty: 'median'
+difficulty: 'medium'
 duration: 80
 ---
 O *Celtae* é um jogo competitivo onde os jogadores lideram uma tribo celta na sua expansão europeia, derrotando os romanos.
 
 <!--more-->
 
-![Celtae board setup](/games/celtae-featured.jpg)
+![Celtae board setup](/resources/games/celtae-featured.jpg)
 
 Os jogadores têm como objectivo escalar várias montanhas e conquistar o topo do maior número delas antes do final do jogo. Para isso podem seguir um caminho mais seguro (e lento) ou correr mais riscos e superar todos os outros. Riscos têm consequências e uma queda pode levar o jogador a ter de iniciar a escalada do 0.
 

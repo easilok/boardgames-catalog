@@ -1,15 +1,16 @@
 ---
 title: 'Coloretto'
-featured_image: '/games/coloretto-featured.jpg'
+featured_image: '/resources/games/coloretto-featured.jpg'
 mode: 'competitive'
 difficulty: 'low'
 duration: 30
+featured: true
 ---
 O *Coloretto* é um jogo competitivo onde os jogadores procuram construir grandes famílias de camaleões.
 
 <!--more-->
 
-![Coloretto board setup](/games/coloretto-featured.jpg)
+![Coloretto board setup](/resources/games/coloretto-featured.jpg)
 
 Os jogadores têm como objectivo colecionar o maior número de cartas (camaleões) da mesma cor, e com isso acumular mais pontos rumo à vitória. No entanto, como muitas famílias não são capazes de coexistir pacificamente, os jogadores terão de procurar a melhor estratégia para reduzir a quantidade de cores diferentes colecionadas.
 

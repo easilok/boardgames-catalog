@@ -1,8 +1,8 @@
 ---
 title: 'Above and Below'
-featured_image: '/games/above-below-featured.jpg'
+featured_image: '/resources/games/above-below-featured.jpg'
 mode: 'competetive'
-difficulty: 'median'
+difficulty: 'medium'
 duration: 90
 ---
 O *Above and Below* é um jogo competitivo onde cada jogador procura construir uma nova e próspera aldeia, após a anterior ter sido atacada por bárbaros.
@@ -10,7 +10,7 @@ Durante esta construção, os habitantes descobrem uma vasta rede de túneis sub
 
 <!--more-->
 
-![Above and Below board setup](/games/above-below-featured.jpg)
+![Above and Below board setup](/resources/games/above-below-featured.jpg)
 
 Os jogadores têm como objectivo principal construir uma vasta aldeia, cheia de infraestruturas. Para tal precisam de recursos humanos, monetários e alimentares que podem ser encontrados, maioritariamente, ao explorar uma vasta rede de túneis desconhecidos. Esta exploração é alimentada por histórias pré-definidas que o jogador terá de viver e tomar decisões do que fazer em situações muito variadas, inspiradas em jogos RPG.
 

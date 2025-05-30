@@ -1,15 +1,16 @@
 ---
 title: 'Cascadia'
-featured_image: '/games/cascadia-featured.jpg'
+featured_image: '/resources/games/cascadia-featured.jpg'
 mode: 'competitive'
 difficulty: 'low'
 duration: 40
+featured: true
 ---
 O *Cascadia* é um jogo competitivo onde os jogadores constroem o melhor ecossistema de vida selvagem baseado em espécies dessa mesma localização.
 
 <!--more-->
 
-![Cascadia board setup](/games/cascadia-featured.jpg)
+![Cascadia board setup](/resources/games/cascadia-featured.jpg)
 
 Cada jogador trabalha num puzzle composto por peças de diferentes ecossistemas (aquático, deserto, florestal), posteriormente populados por animais selvagens, procurando cumprir o maior número de objetivos e arrecadar o prémio de melhor habitat.
 
