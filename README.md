@@ -1,24 +1,47 @@
-# Catálogo de Jogos de Tabuleiro
+# AddRoll Boardgames Catalog
 
-Este repositório apresenta, de forma simples, o catálogo de jogos de tabuleiro que pode ser solicitado e experimentado.
+This repository contains an [Hugo](https://gohugo.io/) based static website used as the Homepage of a boardgames club.
 
-> [!NOTE]
-> Esta plataforma está ainda a ser construída e melhorada, assim como o catálogo de jogos que se encontra ainda em
-> construção.
+It can be used by anyone by simply forking it and replace the contents of `content/games` with one owns boardgames.
 
+> [!WARNING]
+> This site is still under development. Refer to the [Tasks](#tasks) section on the next planned actions
 
-A lista aqui apresentada contém informação básica do jogo, como o intervalo de jogadores, o tempo médio de jogo,
-a dificuldade e se se trata de um jogo cooperativo ou competitivo.
-Cada jogo tem, também, a sua própria página de detalhes onde uma sinopse e imagem do jogo podem ser consultadas.
+## Development
 
- | Jogo                                                           | Modo        | Jogadores | Duração Média | Dificuldade       |
- | ---                                                            | ---         | ---       | ---           | ---               |
- | [Pandemic](./games/pandemic.md)                                | Cooperativo | 1 a 4     | 45 minutos    | Dificuldade média |
- | [Cascadia](./games/cascadia.md)                                | Competitivo | 1 a 4     | 40 minutos    | Dificuldade baixa |
- | [Everdell](./games/everdell.md)                                | Competitivo | 1 a 4     | 60 minutos    | Dificuldade média |
- | [Coloretto](./games/coloretto.md)                              | Competitivo | 2 a 5     | 30 minutos    | Dificuldade baixa |
- | [Above and Below](./games/above-and-below.md)                  | Competitivo | 2 a 4     | 90 minutos    | Dificuldade média |
- | [Dark Tomb: The Ice Chasers](./games/dark-tomb-ice-chasers.md) | Cooperativo | 1 a 4     | 40 minutos    | Dificuldade baixa |
- | [7 Summits](./games/7summits.md)                                    | Competitivo | 1 a 5     | 40 minutos    | Dificuldade baixa |
- | [Celtae](./games/celtae.md)                                    | Competitivo | 1 a 4     | 80 minutos    | Dificuldade média |
- | [Catan](./games/catan.md)                                    | Competitivo | 1 a 4     | 75 minutos    | Dificuldade média |
+As this website is based on the Hugo static site generator, it requires Hugo to be installed. The official documentation provides [different setup instructions](https://gohugo.io/installation/linux/) that can be followed.
+
+This repository also provides a [mise](https://mise.jdx.dev/getting-started.html) configuration, that will properly setup your environment to work with this application, by simply run:
+
+```shell
+mise install
+```
+
+After installing all requirements, running the following command will start the Hugo development server on [localhost:1313](http:localhost:1313).
+
+## Adding Games
+
+Adding games is as simply as creating a markdown file, with the game name, on the `content/games`. 
+
+These kind of markdown files need to follow some specific rules, in order for proper information to be show to the user.
+
+If you want to add a boardgame to the catalog, create a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) following the instructions on the [CONTRIBUTING-GAMES.md file](./CONTRIBUTING-GAMES.md).
+
+## Development resourses
+
+As this website is built on top of Hugo, its [official documentation](https://gohugo.io/documentation/) is the most important resource.
+
+This website has customizations of the [ananke theme for Hugo](https://github.com/theNewDynamic/gohugo-theme-ananke), the official getting started theme.
+
+For styling, and inherited from the *ananke theme*, the [tachyons CSS framework](https://tachyons.io/docs/) is used.
+
+### Tasks
+
+- [ ] Improve sizing of feature image to the home page
+- [ ] Improve layout of game metrics on lists
+- [ ] Add card like style to lists
+- [ ] Improve image sizing on game card/article
+- [ ] Improve [pagination buttons](https://gohugo.io/templates/pagination/#navigation) (centered and better buttons)
+- [ ] Add filters by playing modes and difficulty in game list
+- [ ] Add search bar on game list/everywhere 
+- [ ] Add countdown to next event
