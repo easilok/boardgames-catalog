@@ -45,3 +45,4 @@ For styling, and inherited from the *ananke theme*, the [tachyons CSS framework]
 - [ ] Add filters by playing modes and difficulty in game list
 - [ ] Add search bar on game list/everywhere 
 - [ ] Add countdown to next event
+- [ ] Improve site navbar
