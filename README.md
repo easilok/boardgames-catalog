@@ -37,12 +37,12 @@ For styling, and inherited from the *ananke theme*, the [tachyons CSS framework]
 
 ### Tasks
 
-- [ ] Improve sizing of feature image to the home page
 - [ ] Improve layout of game metrics on lists
-- [ ] Add card like style to lists
 - [ ] Improve image sizing on game card/article
 - [ ] Improve [pagination buttons](https://gohugo.io/templates/pagination/#navigation) (centered and better buttons)
+- [ ] Add countdown to next event
+- [ ] Add card like style to lists
+- [ ] Improve site navbar
+- [ ] Improve sizing/position of feature image to the home page
 - [ ] Add filters by playing modes and difficulty in game list
 - [ ] Add search bar on game list/everywhere 
-- [ ] Add countdown to next event
-- [ ] Improve site navbar
