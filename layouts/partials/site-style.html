@@ -1,0 +1,18 @@
+{{ with partials.IncludeCached "func/style/GetMainCSS.html" "style/GetMainCSS" }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" >
+{{ end }}
+
+{{ range site.Params.custom_css }}
+  {{ with partials.IncludeCached "func/style/GetResource.html" . . }}{{ else }}
+    <link rel="stylesheet" href="{{ urls.RelURL (.) }}">
+  {{ end }}
+{{ end }}
+
+
+{{ $flip := resources.Get "css/flip.min.css" | fingerprint }}
+
+<link rel="stylesheet" href="{{ $flip.RelPermalink }}" >
+
+{{ $tickCustom := resources.Get "css/tick-custom.css" | minify | fingerprint }}
+
+<link rel="stylesheet" href="{{ $tickCustom.RelPermalink }}" >
