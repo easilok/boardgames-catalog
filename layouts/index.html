@@ -5,10 +5,10 @@
 
     {{ $pages := where site.RegularPages "Params.featured" true }}
     {{ $paginator := .Paginate $pages }}
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-        <section class="w-100 mw8">
+    <div class="w-100 w-90-m w-80-l center">
+        <section class="w-100 mw8 flex flex-wrap center">
             {{ range $paginator.Pages }}
-                <div class="w-100 mb4 relative">
+                <div class="w-100 w-50-l pa0 pa3-l relative">
                     {{ .Render "summary-with-image" }}
                 </div>
             {{ end }}
