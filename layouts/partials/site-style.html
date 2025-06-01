@@ -9,6 +9,10 @@
 {{ end }}
 
 
+{{ $mainCustom := resources.Get "css/main-custom.css" | minify | fingerprint }}
+
+<link rel="stylesheet" href="{{ $mainCustom.RelPermalink }}" >
+
 {{ $flip := resources.Get "css/flip.min.css" | fingerprint }}
 
 <link rel="stylesheet" href="{{ $flip.RelPermalink }}" >
