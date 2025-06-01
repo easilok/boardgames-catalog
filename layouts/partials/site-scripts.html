@@ -1,0 +1,7 @@
+{{ $flip := resources.Get "js/flip.min.js" | fingerprint }}
+
+<script src="{{ $flip.Permalink }}"></script>
+
+{{ $tickCustom := resources.Get "js/tick-custom.js" | minify | fingerprint }}
+
+<script src="{{ $tickCustom.Permalink }}"></script>
