@@ -1,7 +1,7 @@
 ---
 title: '7 Summits'
 featured_image: '/resources/games/7-summits-featured.jpg'
-mode: 'competetive'
+mode: 'competitive'
 difficulty: 'low'
 duration: 40
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Above and Below'
 featured_image: '/resources/games/above-below-featured.jpg'
-mode: 'competetive'
+mode: 'competitive'
 difficulty: 'medium'
 duration: 90
 ---
