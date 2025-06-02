@@ -19,21 +19,23 @@ More info here: https://github.com/theNewDynamic/gohugo-theme-ananke/releases/ta
                 {{ .Title }}
                 </a>
             </h1>
-            {{ if .Params.mode }}
-                <span class="f6 lh-copy i mr2 light-silver">
-                    {{ partial "game-playing-mode.html" .Params.mode }}
-                </span>
-            {{ end }}
-            {{ if .Params.duration }}
-                <span class="f6 lh-copy i mr2 light-silver">
-                    {{.Params.duration }}min
-                </span>
-            {{ end }}
-            {{ if .Params.difficulty }}
-                <span class="f6 lh-copy i light-silver">
-                    {{.Params.difficulty }}
-                </span>
-            {{ end }}
+            <div class="tc">
+                {{ if .Params.mode }}
+                    <span class="f6 lh-copy fw4 mr3">
+                        {{ partial "game-playing-mode.html" (dict "mode" .Params.mode "css" "i") }}
+                    </span>
+                {{ end }}
+                {{ if .Params.duration }}
+                    <span class="f6 lh-copy mr3">
+                        {{ partial "game-playing-time.html" (dict "duration" .Params.duration "css" "i") }}
+                    </span>
+                {{ end }}
+                {{ if .Params.difficulty }}
+                    <span class="f6 lh-copy">
+                        {{ partial "game-playing-difficulty.html" (dict "difficulty" .Params.difficulty "css" "i") }}
+                    </span>
+                {{ end }}
+            </div>
             <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
             {{ .Summary }}
             </div>
