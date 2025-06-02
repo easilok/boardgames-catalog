@@ -1,0 +1,22 @@
+{{ $difficulty := .difficulty }}
+{{ $css := (or .css "") }}
+{{ $icon := (or .icon "🧩") }}
+
+
+{{ $content := "" }}
+{{ if eq $difficulty "low" }}
+    {{ $content = "Baixa" }}
+    {{ $css = printf "%s %s" $css "dark-green" }}
+{{ else if eq $difficulty "medium" }}
+    {{ $content = "Média" }}
+    {{ $css = printf "%s %s" $css "gold" }}
+{{ else if eq $difficulty "high" }}
+    {{ $content = "Alta" }}
+    {{ $css = printf "%s %s" $css "dark-red" }}
+{{ end }}
+
+{{ if not (eq $content "" ) }}
+    <span title="Dificuldade">
+        {{ $icon }}<span class={{ $css }}> {{ $content }}</span>
+    </span>
+{{ end }}
