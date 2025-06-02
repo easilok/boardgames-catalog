@@ -1,0 +1,18 @@
+{{ $duration := .duration }}
+{{ $css := or .css "" }}
+{{ $icon := (or .icon "⏳") }}
+
+{{ if lt $duration 31 }}
+    {{ $css = printf "%s %s" $css "dark-green" }}
+{{ else if lt $duration 61 }}
+    {{ $css = printf "%s %s" $css "blue" }}
+{{ else if lt $duration 91 }}
+    {{ $css = printf "%s %s" $css "gold" }}
+{{ else }}
+    {{ $css = printf "%s %s" $css "dark-red" }}
+{{ end }}
+
+<span>
+    {{ $icon }}<span title="Duração média" class={{ $css }}> {{ $duration }}min</span>
+</span>
+
