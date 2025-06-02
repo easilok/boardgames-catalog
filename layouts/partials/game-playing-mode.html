@@ -1,1 +1,23 @@
-{{ . }}
+{{/*
+    - 🤝 Cooperative (&#x1F91D;)
+    - ⚔️ Competitive (&#x2694;)
+*/}}
+{{ $mode := .mode }}
+{{ $content := "" }}
+{{ $icon := "" }}
+{{ $css := (or .css "") }}
+{{ if eq $mode "cooperative" }}
+    {{ $icon = "🤝" }}
+    {{ $content = "Cooperativo" }}
+    {{ $css = printf "%s %s" $css "purple" }}
+{{ else if eq $mode "competitive" }}
+    {{ $icon = "⚔️" }}
+    {{ $content = "Competitivo" }}
+    {{ $css = printf "%s %s" $css "orange" }}
+{{ end }}
+
+{{ if not (eq $content "" ) }}
+    <span title="Modo de Jogo">
+        {{ $icon }} <span class="i {{ $css }}">{{ $content }}</span>
+    </span>
+{{ end }}
