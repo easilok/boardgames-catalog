@@ -1,7 +1,7 @@
 ---
 title: 'Everdell'
 featured_image: '/resources/games/everdell-featured.jpg'
-mode: 'competetive'
+mode: 'competitive'
 difficulty: 'medium'
 duration: 60
 ---
