@@ -21,7 +21,7 @@ After installing all requirements, running the following command will start the 
 
 ## Adding Games
 
-Adding games is as simply as creating a markdown file, with the game name, on the `content/games`. 
+Adding games is as simply as creating a folder, with the game name, and a markdown file on the `content/games`. 
 
 These kind of markdown files need to follow some specific rules, in order for proper information to be show to the user.
 
@@ -38,7 +38,6 @@ For styling, and inherited from the *ananke theme*, the [tachyons CSS framework]
 ### Tasks
 
 - [ ] Improve layout of game metrics on lists
-- [ ] Improve image sizing on game card/article
 - [ ] Add card like style to lists
 - [ ] Improve site navbar
 - [ ] Improve UI of [pagination buttons](https://gohugo.io/templates/pagination/#navigation)

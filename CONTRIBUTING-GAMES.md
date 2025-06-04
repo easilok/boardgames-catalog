@@ -1,16 +1,18 @@
 # How to add your boardgame to the catalog
 
-Adding a new boardgame is as simply as creating a markdown file at `content/games`.
+Adding a new boardgame is as simply as creating a new folder, at `content/games`, with an `index.md` markdown file describing it inside.
 
-To help bootstrap your new game, copy the `boardgame-bootsrap.en.md` file (or the Portuguese version `boardgame-bootstrap.pt.md`) from the root of this repository to the
-`content/games`, naming it with the name of your game.
+To help bootstrap your new game, an example structure is provided as the `boardgame-bootsrap-example` folder on the root of this repository, which can be copied to the `content/games`, naming it with the name of your game.
 
 > [!NOTE]
 > Use dashes to replace spaces on the name.
 
-Although there are bootstrap files for both English and Portuguese, **only one language is supported** so use only the language you prefer.
+Inside the new copied folder you have a markdown file, `index.md`, that should be updated to include a proper description and characteristics of the game you wish to add. It includes tips on where to find some of the required characteristics.
 
-The bootstrap file is composed of three sections, that should be properly filled.
+> [!NOTE]
+> We are only supporting Portuguese descriptions for now, with intent to soon allow multi language support on this site.
+
+The bootstrap markdown file is composed of three sections, that should be properly filled.
 
 ## Boardgame page properties
 
@@ -18,7 +20,7 @@ On the top of the page there is a section surrounded by dashes that is not part 
 is used to specific features of the website:
 
 - The **title** property sets what names the game on the list pages. It also sets the title of the boardgame own page.
-- The **featured_image** sets the image that will be present on the list pages, identifying the game, and when viewing the game page. This image should be added to the `static/resources/games` folder, following the same name convention as the boardgame file.
+- The **featured_image** sets the image that gives a visual cue of the gameplay and will be rendered on the list pages. This image should be included in the boardgame folder created and named appropriately.
 - The **mode** property defines if it is a *cooperative* or *competitive* game. It is used for tagging the game in list pages.
 - The **difficulty** property defines if it is a *low*, *medium* or *high* difficulty game. It is used for tagging the game in list pages (refer to the game [bgg](https://boardgamegeek.com) page find an appropriate value).
 - The **duration** property defines the average duration of the gameplay. It is used for tagging the game in list pages .
@@ -26,7 +28,7 @@ is used to specific features of the website:
 
 ```yaml
 title: 'Boardgame Name'
-featured_image: '/games/boardgame-name.jpg'
+featured_image: 'boardgame-name.jpg'
 mode: 'competetive | cooperative'
 difficulty: 'low | medium | high'
 duration: 40

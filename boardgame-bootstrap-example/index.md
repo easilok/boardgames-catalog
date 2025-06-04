@@ -1,6 +1,6 @@
 ---
 title: 'Boardgame Name'
-featured_image: '/resources/games/boardgame-name.jpg'
+featured_image: 'boardgame-name.jpg'
 mode: 'competetive | cooperative'
 difficulty: 'low | medium | high'
 duration: 40
@@ -10,7 +10,7 @@ jogá-lo também.
 
 <!--more-->
 
-![Boardgame name board setup](/resources/games/boardgame-name.jpg)
+![Boardgame name board setup](boardgame-name.jpg)
 
 Dá uma descrição mais detalhada do jogo, combinando detalhes da jogabilidade, características distintivas e
 similaridades com outros jogos
