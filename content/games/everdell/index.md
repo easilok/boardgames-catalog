@@ -1,6 +1,6 @@
 ---
 title: 'Everdell'
-featured_image: '/resources/games/everdell-featured.jpg'
+featured_image: 'everdell-featured.jpg'
 mode: 'competitive'
 difficulty: 'medium'
 duration: 60
@@ -9,7 +9,7 @@ O *Everdell* é um jogo competitivo onde os jogadores procuram construir a comun
 
 <!--more-->
 
-![Everdell board setup](/resources/games/everdell-featured.jpg)
+![Everdell board setup](everdell-featured.jpg)
 
 Cada jogador utiliza trabalhadores da sua comunidade para produzir recursos e riquezas que são, posteriormente, usados para aumentar a infraestrutura e os membros da sua comunidade.
 

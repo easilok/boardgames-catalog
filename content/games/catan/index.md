@@ -1,6 +1,6 @@
 ---
 title: 'Catan'
-featured_image: '/resources/games/catan-featured.webp'
+featured_image: 'catan-featured.webp'
 mode: 'competitive'
 difficulty: 'medium'
 duration: 75
@@ -10,7 +10,7 @@ duration: 75
 
 <!--more-->
 
-![Catan board setup](/resources/games/catan-featured.webp)
+![Catan board setup](catan-featured.webp)
 
 O objetivo é ser o primeiro a alcançar 10 pontos de vitória, através de construções, desenvolvimento e comércio com outros jogadores. A cada jogada, os dados determinam que recursos são produzidos, incentivando negociações e adaptações constantes às jogadas dos adversários.
 
