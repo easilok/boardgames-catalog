@@ -3,3 +3,10 @@
     display: flex;
     justify-content: center;
 }
+
+.game-thumbnail {
+    height: 350px;
+    border-radius: 4px;
+    background-position: center;
+    background-size: cover;
+}

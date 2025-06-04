@@ -8,7 +8,7 @@ More info here: https://github.com/theNewDynamic/gohugo-theme-ananke/releases/ta
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
         <div class="mb4 w-100">
           <a href="{{.RelPermalink}}" class="db grow">
-            <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
+              <div class="img game-thumbnail" style="background-image: url({{ $featured_image }})"></div>
           </a>
         </div>
       {{ end }}
