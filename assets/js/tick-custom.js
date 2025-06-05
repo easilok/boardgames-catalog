@@ -37,8 +37,6 @@ function handleCountdownTickInit(tick) {
         alert('Invalid date for countdown!!')
     }
 
-    console.log({d: Tick.helper.date(initialDate)})
-
     var counter = Tick.count.down(initialDate)
 
     counter.onupdate = function (value) {
