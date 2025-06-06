@@ -34,14 +34,3 @@ As this website is built on top of Hugo, its [official documentation](https://go
 This website has customizations of the [ananke theme for Hugo](https://github.com/theNewDynamic/gohugo-theme-ananke), the official getting started theme.
 
 For styling, and inherited from the *ananke theme*, the [tachyons CSS framework](https://tachyons.io/docs/) is used.
-
-### Tasks
-
-- [ ] Improve layout of game metrics on lists
-- [ ] Add card like style to lists
-- [ ] Improve site navbar
-- [ ] Improve UI of [pagination buttons](https://gohugo.io/templates/pagination/#navigation)
-- [ ] Improve sizing/position of feature image to the home page
-- [ ] Add filters by playing modes and difficulty in game list
-- [ ] Add search bar on game list/everywhere 
-- [ ] Improve countdown shortcode (maybe inherit the event date from page and automatically default to second Monday)
