@@ -10,7 +10,7 @@ O *Carcassonne* é um jogo de colocação de peças onde os jogadores constroem 
 
 <!--more-->
 
-![Carcassonne board setup](./carcassone-featured.png)
+![Carcassonne board setup](./carcassonne-featured.png)
 
 Cada jogador, no seu turno, coloca uma peça de terreno no tabuleiro em construção e pode decidir colocar um dos seus seguidores numa das características dessa peça (campo, estrada, cidade, etc.).
 
