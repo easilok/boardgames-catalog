@@ -1,0 +1,9 @@
+{{ with $.Page }}
+
+    {{ $featured_image := partials.Include "func/GetFeaturedImage.html" . }}
+
+    <img src="{{ $featured_image }}" width="100%"
+        {{- with .Title }} title="{{ . }}" alt="{{ . }}" {{ end -}}
+    >
+
+{{ end }}
