@@ -11,7 +11,7 @@ O _Hitster_ é um jogo onde os jogadores devem ordernar músicas por ordem crono
 
 <!--more-->
 
-![Hitster cards and timeline](./hitster-featured.webp)
+{{<render-featured-image>}}
 
 Cada jogador, por ordem, retira uma carta do baralho. O DJ está encarregue de tocar um excerto da música dessa carta, enquanto que o jogador deve-a colocar na posição cronológica correta da sua linha temporal pessoal, baseando-se no ano de lançamento da música.
 

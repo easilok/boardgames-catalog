@@ -9,7 +9,7 @@ O *Everdell* é um jogo competitivo onde os jogadores procuram construir a comun
 
 <!--more-->
 
-![Everdell board setup](everdell-featured.jpg)
+{{<render-featured-image>}}
 
 Cada jogador utiliza trabalhadores da sua comunidade para produzir recursos e riquezas que são, posteriormente, usados para aumentar a infraestrutura e os membros da sua comunidade.
 

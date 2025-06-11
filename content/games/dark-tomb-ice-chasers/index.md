@@ -10,7 +10,7 @@ O *Dark Tomb* é um jogo cooperativo onde os jogadores assumem um papel de explo
 
 <!--more-->
 
-![Dark Tomb board setup](ice-chasers-featured.jpg)
+{{<render-featured-image>}}
 
 Cada jogador assume uma personagem com características e ações específicas. Todos os jogadores trabalham em conjunto para explorar totalmente a caverna onde se depararam, sobrevivendo aos ataques dos seus habitantes nativos (monstros). Com um motor simplificado de RPGs como Dungeon & Dragons, os jogadores têm de selecionar bem as ações a fazer e recorrer ao famoso D20 para definir o seu sucesso.
 

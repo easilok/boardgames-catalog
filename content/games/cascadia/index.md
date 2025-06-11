@@ -10,7 +10,7 @@ O *Cascadia* é um jogo competitivo onde os jogadores constroem o melhor ecossis
 
 <!--more-->
 
-![Cascadia board setup](cascadia-featured.jpg)
+{{<render-featured-image>}}
 
 Cada jogador trabalha num puzzle composto por peças de diferentes ecossistemas (aquático, deserto, florestal), posteriormente populados por animais selvagens, procurando cumprir o maior número de objetivos e arrecadar o prémio de melhor habitat.
 

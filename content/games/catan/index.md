@@ -10,7 +10,7 @@ duration: 75
 
 <!--more-->
 
-![Catan board setup](catan-featured.webp)
+{{<render-featured-image>}}
 
 O objetivo é ser o primeiro a alcançar 10 pontos de vitória, através de construções, desenvolvimento e comércio com outros jogadores. A cada jogada, os dados determinam que recursos são produzidos, incentivando negociações e adaptações constantes às jogadas dos adversários.
 

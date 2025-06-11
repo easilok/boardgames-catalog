@@ -10,7 +10,7 @@ Durante esta construção, os habitantes descobrem uma vasta rede de túneis sub
 
 <!--more-->
 
-![Above and Below board setup](above-below-featured.jpg)
+{{<render-featured-image>}}
 
 Os jogadores têm como objectivo principal construir uma vasta aldeia, cheia de infraestruturas. Para tal precisam de recursos humanos, monetários e alimentares que podem ser encontrados, maioritariamente, ao explorar uma vasta rede de túneis desconhecidos. Esta exploração é alimentada por histórias pré-definidas que o jogador terá de viver e tomar decisões do que fazer em situações muito variadas, inspiradas em jogos RPG.
 
