@@ -10,7 +10,7 @@ jogá-lo também.
 
 <!--more-->
 
-![Boardgame name board setup](boardgame-name.jpg)
+{{<render-featured-image>}}
 
 Dá uma descrição mais detalhada do jogo, combinando detalhes da jogabilidade, características distintivas e
 similaridades com outros jogos
