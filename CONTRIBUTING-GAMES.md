@@ -50,6 +50,18 @@ that the following text is present and splitting that presentation from the deta
 <!--more-->
 ```
 
+It is always recommended to have an image that clearly shows how the game look when playing. To ease reusing the `featured_image` for this purpose, you can use the following Hugo's shortcode where you like the image to be presented:
+
+```markdown
+{{<render-featured-image>}}
+```
+
+If you instead wish to use a different image, place it on the game folder and use the standard markdown image syntax:
+
+```markdown
+![image description](./image-filename.jpg)
+```
+
 ## Boardgame characteristics
 
 Still part of the page content, there is a section that presents the game characteristics presented by the creators and players:
