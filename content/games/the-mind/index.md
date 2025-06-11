@@ -10,7 +10,7 @@ O *The Mind* é um jogo cooperativo onde os jogadores devem jogar cartas numerad
 
 <!--more-->
 
-![The Mind cards](./the-mind-featured.jpg)
+{{<render-featured-image>}}
 
 O conceito é simples: cada jogador recebe cartas numeradas de 1 a 100 e, em conjunto, devem jogá-las por ordem crescente numa pilha central. A particularidade? Não podem comunicar de forma alguma, isto exclui falar e gestos, devem confiar apenas no coração das cartas.
 

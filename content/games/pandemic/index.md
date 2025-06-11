@@ -10,7 +10,7 @@ O *Pandemic* é um jogo cooperativo onde os jogadores assumem um papel fundament
 
 <!--more-->
 
-![Pandemic board setup](pandemic-featured.jpg)
+{{<render-featured-image>}}
 
 Cada jogador assume uma personagem, com funções específicas, e em conjunto terão de planear bem os passos para que consigam, para vários vírus: controlar a sua expansão mundial e recolher os recursos necessários para encontrar a sua cura.
 

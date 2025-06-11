@@ -12,7 +12,7 @@ O *Mysterium* é um jogo cooperativo onde um jogador assume o papel de um fantas
 
 Através de cartas de visão artisticamente deslumbrantes, o fantasma fornece pistas abstratas que os outros jogadores devem interpretar em conjunto para descobrir a verdade.
 
-![Mysterium board setup](./mysterium-featured.png)
+{{<render-featured-image>}}
 
 O fantasma comunica através de "cartas de visão" com os restantes jogadores com pistas abstratas. Já estes, os investigadores, devem interpretar estas pistas abstratas para identificar o suspeito, o local e a arma do crime.
 
