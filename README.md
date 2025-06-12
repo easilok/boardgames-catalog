@@ -11,13 +11,19 @@ It can be used by anyone by simply forking it and replace the contents of `conte
 
 As this website is based on the Hugo static site generator, it requires Hugo to be installed. The official documentation provides [different setup instructions](https://gohugo.io/installation/linux/) that can be followed.
 
-This repository also provides a [mise](https://mise.jdx.dev/getting-started.html) configuration, that will properly setup your environment to work with this application, by simply run:
+This repository also provides a [mise](https://mise.jdx.dev/getting-started.html) configuration, that will properly setup your environment to work with this application, by simply running the install command:
 
 ```shell
 mise install
 ```
 
-After installing all requirements, running the following command will start the Hugo development server on [localhost:1313](http:localhost:1313).
+After installing all requirements, running the following command will start the Hugo development server on [localhost:1313](http:localhost:1313):
+
+```shell
+mise run dev
+```
+
+This command is just a mise task that wraps the `hugo server` native command.
 
 ## Adding Games
 
