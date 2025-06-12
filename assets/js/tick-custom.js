@@ -1,3 +1,37 @@
+function getNthWeekday(year, month, weekday, occurrence) {
+  var firstOfMonth = new Date(Date(year, month, 1));
+  var firstWeekday = firstOfMonth.getDay(); // 0=Sun...6=Sat
+  var weekdayOffset = (7 + weekday - firstWeekday) % 7;
+  var targetDay = 1 + weekdayOffset + (occurrence - 1) * 7;
+  return new Date(Date(year, month, targetDay));
+}
+
+function getNextEvent(now, weekday = 1, occurrence = 2) {
+    // Current month event date
+    var year = now.getFullYear();
+    var month = now.getMonth(); // 0-based
+    var currentMonthEvent = getNthWeekday(year, month, weekday, occurrence);
+
+    // Next month event date
+    var nextMonth = (month + 1) % 12;
+    var nextYear = month === 11 ? year + 1 : year;
+    var nextMonthEvent = getNthWeekday(nextYear, nextMonth, weekday, occurrence);
+
+    // Keep showing the countdown to 0 on the next day of the event
+    var gracePeriodEnd = new Date(currentMonthEvent.getTime() + 2 * 24 * 60 * 60 * 1000);
+
+    console.log({
+        currentMonthEvent,
+        nextMonthEvent
+    })
+
+    if (now < gracePeriodEnd) {
+        return currentMonthEvent;
+    }
+
+    return nextMonthEvent;
+}
+
 function handleCountdownTickInit(tick) {
     var locale = {
         YEAR_PLURAL: 'Anos',
@@ -32,12 +66,38 @@ function handleCountdownTickInit(tick) {
 
 
     var initialDate = tick._element.dataset.initialValue
+    // default: Second
+    var occurrence = tick._element.dataset.occurrence ? parseInt(tick._element.dataset.occurrence, 10) : 2; 
+    // default: Monday
+    var weekday = tick._element.dataset.weekday ? parseInt(tick._element.dataset.weekday, 10) : 1;
+    // default: 17:30
+    var time = tick._element.dataset.time || '17:30:00+01:00';
 
-    if (isNaN(Tick.helper.date(initialDate))) {
-        alert('Invalid date for countdown!!')
+    var eventDate = null;
+
+    if (initialDate) {
+        if (isNaN(Tick.helper.date(initialDate))) {
+            alert('Invalid date for countdown!!')
+            return;
+        }
+
+        if (Tick.helper.date(initialDate) > Tick.helper.date()) {
+            eventDate = initialDate;
+        }
     }
 
-    var counter = Tick.count.down(initialDate)
+    if (!eventDate) {
+        eventDate = getNextEvent(Tick.helper.date(), weekday, occurrence);
+        eventDate = `${eventDate.getFullYear()}-${eventDate.getMonth()}-${eventDate.getDay()}T${time}`
+        console.log({eventDate})
+        if (isNaN(Tick.helper.date(eventDate))) {
+            alert('Invalid generated date for countdown!!')
+            return;
+        }
+        console.info(`Setting next event to ${eventDate}`)
+    }
+
+    var counter = Tick.count.down(eventDate)
 
     counter.onupdate = function (value) {
         tick.value = value;

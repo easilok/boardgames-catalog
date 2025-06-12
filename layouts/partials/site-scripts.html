@@ -1,3 +1,5 @@
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+
 {{ $flip := resources.Get "js/flip.min.js" | fingerprint }}
 
 <script src="{{ $flip.Permalink }}"></script>

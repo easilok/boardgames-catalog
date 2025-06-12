@@ -1,6 +1,10 @@
+{{ $event := $.Page.Param "event" }}
+
 <div class="tick"
     data-credits="false"
-    data-initial-value={{ .Get "from" }}
+    {{ if $event }}
+    data-initial-value={{ $event }}
+    {{ end }}
     data-did-init="handleCountdownTickInit">
     <div data-repeat="true" data-layout="horizontal fit" data-transform="preset(d, h, m, s) -> delay">
         <div class="tick-group">
@@ -13,6 +17,8 @@
     </div>
 </div>
 
+{{ if $event }}
 <div class="mt2 i f6 light-silver tc">
     ({{ time.Format "Jan 2, 2006" ( .Get "from" ) }})
 </div>
+{{ end }}
