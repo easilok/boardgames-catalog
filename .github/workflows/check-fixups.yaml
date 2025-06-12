@@ -1,0 +1,19 @@
+name: Check Fixup Commits
+
+on: workflow_call
+
+jobs:
+  check-fixups:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Prevent Fixup Commits
+      env:
+        TARGET_BRANCH: ${{ github.base_ref }}
+      run: |
+        git log origin/$TARGET_BRANCH..HEAD --pretty=format:"%h %s" | grep -iP '^[a-f0-9]+ (fixup|squash|wip)' && exit 1 || echo "No temporary commits found"
