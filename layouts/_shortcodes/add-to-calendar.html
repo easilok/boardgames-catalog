@@ -1,0 +1,50 @@
+{{- $eventTime := time .Page.Params.event -}}
+{{- if $eventTime -}}
+  {{- $eventTitle := default "Addroll" .Page.Params.calendar.title -}}
+  {{- $eventDuration := default 2 .Page.Params.calendar.duration -}}
+  {{- $description := default "" .Page.Params.calendar.description -}}
+  {{- $location := default "" .Page.Params.calendar.location -}}
+
+  {{- $month := time.Format "January" $eventTime -}}
+  {{- $title := printf "%s - %s" $eventTitle $month -}}
+  {{- $titleQuery := urlquery $title -}}
+
+  {{- $startGoogle := $eventTime.Format "20060102T150405Z01" -}}
+  {{- $endGoogle := $eventTime.Add (duration "hour" $eventDuration) | time.Format "20060102T150405Z01" -}}
+  {{- $baseGoogleUrl := "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%s&dates=%s/%s&details=%s&location=%s" -}}
+  {{- $googleURL := printf $baseGoogleUrl $titleQuery $startGoogle $endGoogle (urlquery $description) (urlquery $location) -}}
+
+  {{- $startOutlook := $eventTime.Format "2006-01-02T15:04:05Z01" -}}
+  {{- $endOutlook := $eventTime.Add (duration "hour" $eventDuration) | time.Format "2006-01-02T15:04:05Z01" -}}
+  {{- $baseOutlookURL := "https://outlook.office.com/owa/?path=/calendar/action/compose&subject=%s&startdt=%s&enddt=%s&body=%s&location=%s" -}}
+  {{- $outlookURL := printf $baseOutlookURL $titleQuery $startOutlook $endOutlook (urlquery $description) (urlquery $location) -}}
+
+  {{- $icsPath := "calendar/boardgames-event.ics" -}}
+
+  {{- $linkClass := "no-underline pa2 mh2 pointer" -}}
+  {{- $iconClass := "hover-gray f3" -}}
+
+  <div class="tc i mv3">
+      <div class="">
+          Reserva já no calendário o dia
+          <strong> {{ time.Format "2 de January" $eventTime }}</strong>!
+      </div>
+    <div class="mt2">
+        <a href="{{ $outlookURL }}" target="_blank" rel="noopener"
+            class="{{ $linkClass }}">
+            <i class="fa-brands fa-microsoft light-blue {{ $iconClass }}"></i>
+        </a>
+        <a href="{{ $googleURL }}" target="_blank" rel="noopener"
+            class="{{ $linkClass }}">
+            <i class="fa-brands fa-google blue {{ $iconClass }}"></i>
+        </a>
+        <a href="/{{ $icsPath }}" 
+            class="{{ $linkClass }}">
+            <i class="fa-solid fa-calendar-days navy {{ $iconClass }}"></i>
+        </a>
+    </div>
+  </div>
+{{- else -}}
+  <p><em>No event configured.</em></p>
+{{- end -}}
+
