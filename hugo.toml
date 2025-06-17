@@ -18,3 +18,15 @@ pagerSize = 6
 
 [caches.images]
 dir = ':cacheDir/images'
+
+[outputFormats.ICS]
+baseName = "boardgames-event"
+path = "calendar"
+mediaType = "text/calendar"
+isPlainText = true
+notAlternative = true
+permalinkable = true
+
+[outputs]
+home = ["HTML", "ICS"]
+

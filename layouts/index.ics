@@ -1,0 +1,27 @@
+{{- $eventTime := time .Params.event -}}
+{{- $eventTitle := default "Addroll" .Page.Params.calendar.title -}}
+{{- $eventDuration := default 2 .Page.Params.calendar.duration -}}
+{{- $description := default "" .Page.Params.calendar.description -}}
+{{- $location := default "" .Page.Params.calendar.location -}}
+
+{{- $month := time.Format "January" $eventTime -}}
+{{- $dateFormat := "20060102T150400" -}}
+
+{{- $title := printf "%s - %s" $eventTitle $month -}}
+{{- $start := $eventTime.Format $dateFormat -}}
+{{- $end := $eventTime.Add (duration "hour" $eventDuration) | time.Format $dateFormat -}}
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Addrol//Calendar
+BEGIN:VEVENT
+UID:{{ $eventTime.Format $dateFormat }}@addroll
+DTSTAMP:{{ now.Format $dateFormat }}
+DTSTART;TZID=Europe/Lisbon:{{ $start }}
+DTEND;TZID=Europe/Lisbon:{{ $end }}
+SUMMARY:{{ $title }}
+DESCRIPTION:{{ $description }}
+LOCATION:{{ $location }}
+END:VEVENT
+END:VCALENDAR
+
