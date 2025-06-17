@@ -8,6 +8,17 @@
   {{ end }}
 {{ end }}
 
+{{ $fontAwesome := resources.Get "css/fontawesome.min.css" | fingerprint }}
+
+<link rel="stylesheet" href="{{ $fontAwesome.RelPermalink }}" >
+
+{{ $fontAwesomeBrands := resources.Get "css/fontawesome-brands.min.css" | fingerprint }}
+
+<link rel="stylesheet" href="{{ $fontAwesomeBrands.RelPermalink }}" >
+
+{{ $fontAwesomeSolid := resources.Get "css/fontawesome-solid.min.css" | fingerprint }}
+
+<link rel="stylesheet" href="{{ $fontAwesomeSolid.RelPermalink }}" >
 
 {{ $mainCustom := resources.Get "css/main-custom.css" | minify | fingerprint }}
 
