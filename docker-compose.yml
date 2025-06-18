@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  boardgames:
+    build:
+      context: .
+      args:
+        ADDROLL_BASE_URL: "${ADDROLL_BASE_URL:-http://localhost:1444}"
+    image: easilok/boardgames-catalog
+    container_name: addroll-staging
+    ports:
+      - "1444:80"
+    restart: unless-stopped
