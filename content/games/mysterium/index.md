@@ -4,7 +4,7 @@ featured_image: 'mysterium-featured.png'
 mode: 'cooperative'
 difficulty: 'medium'
 duration: 42
-featured: false
+featured: true
 ---
 O *Mysterium* é um jogo cooperativo onde um jogador assume o papel de um fantasma que tenta comunicar com investigadores para resolver o seu próprio assassinato. 
 
