@@ -4,7 +4,7 @@ featured_image: 'coloretto-featured.jpg'
 mode: 'competitive'
 difficulty: 'low'
 duration: 30
-featured: true
+featured: false
 ---
 O *Coloretto* é um jogo competitivo onde os jogadores procuram construir grandes famílias de camaleões.
 
