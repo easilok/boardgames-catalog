@@ -1,7 +1,7 @@
 ---
 title: 'Vida na floresta'
 featured_image: 'forest-shuffle-featured.jpg'
-mode: 'competetive'
+mode: 'competitive'
 difficulty: 'low'
 duration: 50
 ---

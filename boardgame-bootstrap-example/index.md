@@ -1,7 +1,7 @@
 ---
 title: 'Boardgame Name'
 featured_image: 'boardgame-name.jpg'
-mode: 'competetive | cooperative'
+mode: 'competitive | cooperative'
 difficulty: 'low | medium | high'
 duration: 40
 ---
