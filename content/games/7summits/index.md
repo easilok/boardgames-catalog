@@ -4,6 +4,7 @@ featured_image: '7-summits-featured.jpg'
 mode: 'competitive'
 difficulty: 'low'
 duration: 40
+featured: true
 ---
 O *7 Summits* é um jogo competitivo onde os jogadores, num papel de alpinistas, procuram ser o melhor alpinista mundial, conquistando o pico das montanhas mais altas dos 7 continentes.
 

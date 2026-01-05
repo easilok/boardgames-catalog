@@ -4,7 +4,7 @@ featured_image: 'cascadia-featured.jpg'
 mode: 'competitive'
 difficulty: 'low'
 duration: 40
-featured: false
+featured: true
 ---
 O *Cascadia* é um jogo competitivo onde os jogadores constroem o melhor ecossistema de vida selvagem baseado em espécies dessa mesma localização.
 
