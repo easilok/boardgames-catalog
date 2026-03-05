@@ -2,11 +2,11 @@
 title: "AddRoll"
 linkTitle: "Home"
 description: 'O clube de jogos de tabuleiro da Addvolt.'
-event: "2026-02-09T17:30:00+01:00"
+event: "2026-03-09T17:30:00+01:00"
 calendar:
     title: "Sessão Addroll"
     description: "Vem descontrair connosco numa divertida sessão de jogos de tabuleiro."
-    location: "Addvolt Office"
+    location: "Addvolt Tech"
     duration: 2 
 ---
 
