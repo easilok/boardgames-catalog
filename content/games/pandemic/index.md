@@ -4,7 +4,7 @@ featured_image: 'pandemic-featured.jpg'
 mode: 'cooperative'
 difficulty: 'medium'
 duration: 45
-featured: true
+featured: false
 ---
 O *Pandemic* é um jogo cooperativo onde os jogadores assumem um papel fundamental para salvar o mundo de várias epidemias, antes que elas se propaguem para um estado onde já não será mais possível evitar o extermínio da humanidade.
 
