@@ -1,13 +1,13 @@
----
+[---](---.md)
 title: "AddRoll"
 linkTitle: "Home"
 description: 'O clube de jogos de tabuleiro da Addvolt.'
-event: "2026-06-15T17:30:00+01:00"
+event: "2026-06-13T17:30:00+01:00"
 calendar:
     title: "Sessão Addroll"
     description: "Vem descontrair connosco numa divertida sessão de jogos de tabuleiro."
-    location: "Addvolt Tech"
-    duration: 2 
+    location: "Addvolt Lounge"
+    duration: 2
 ---
 
 **Bem vindo!**
